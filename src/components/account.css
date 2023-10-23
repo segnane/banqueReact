@@ -1,0 +1,42 @@
+.flex-container {
+    display: flex;
+    height: 100hv;
+    align-items: normal;
+    
+  } 
+
+  .half {
+    flex: 1;
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .custom-checkbox {
+    display: flex;
+    position: relative;
+    padding-left: 20px; /* Espace pour l'icône */
+    cursor: pointer;
+    user-select: none;}
+
+    .submit {
+        background-color: rgb(235, 126, 114);
+    }
+.table tr:nth-child(even){background-color: antiquewhite;}
+.table tr:hover {background-color: rgb(255, 111, 0);}
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:#f85c0242; /* Green */
+    
+    color:rgb(11, 11, 11);
+}
+
+
+    
